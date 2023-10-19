@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Fake Blog</h1>
+
+    <fieldset>
+        <legend>Insert new post</legend>
+
+        <div>
+            <input type="text" id="title-field" placeholder="Post Title">
+        </div>
+        <div>
+            <textarea id="body-field" cols="90" rows="10" placeholder="It's a fake API, so you can't send any text in this application."></textarea>
+        </div>
+        <div>
+            <button id="insert-button">Insert</button>
+        </div>
+    </fieldset>
+
+    <div class="posts"></div>
+    <script src="./script.js"></script>
+</body>
+</html>

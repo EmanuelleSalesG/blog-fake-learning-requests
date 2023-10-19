@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+legend, div{
+    padding: 10px;
+}
+
+#insert-button{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all;
+}
+
+#insert-button:hover{
+    opacity: 0.85;
+}
